@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta nasssme="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">-->
+    <title>All Products - Farm Produce</title>
+    <link rel="stylesheet" href="style.css" type="text/css"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,600;0,700;1,400;1,500&display=swap" rel="stylesheet"> 
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    
+    <div class="container">
+        <div class="navbar">
+            <div class="logo">
+                <img src="images/logo-page-001.jpg" width="125px" alt="">
+            </div>
+                <h1>Mavuno Bora Global</h1>
+                <nav>
+
+                   <ul id="MenuItems">
+                        <li><a href="">Home</a></li>
+                        <li><a href="">Produce</a></li>
+                        <li><a href="">About</a></li>
+                        <li><a href="">Contact</a></li>
+                    </ul>
+                  
+                </nav> 
+            
+            <img src="images/cart.jpg" width="30px" height="30px" alt="">
+            <img src="images/menu.png" class="menu-icon" alt="" onclick="menutoggle()">
+        </div>
+  
+    </div>
+
+    <!-------featured category------->
+    <div class="small-container">
+        
+        <div class="row row-2">
+            <h2>All Produce</h2>
+            <select>
+                <option>Default Shorting</option>
+                <option>Short by Price</option>
+                <option>Short by Popularity</option>
+                <option>Short by Rating</option>
+                <option>Short by Sale</option>
+            </select>
+        </div>
+
+        <div class="row">
+            <div class="col-4">
+                <img src="images/grapes.jpg" alt="">
+                
+                <h4>Grapes</h4>
+                <div class="rating">
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star-half-o" aria-hidden="true"></i>
+                </div>
+
+                <p>ksh 200.00</p>
+                
+            </div>
+            <div class="col-4">
+                <img src="images/peas.jpg" alt="">
+                
+                <h4>Beans</h4>
+                <div class="rating">
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                </div>
+
+                <p>ksh110.00</p>
+                
+            </div>
+            <div class="col-4">
+                <img src="images/garlic.jpg" alt="">
+                
+                <h4>Garlic</h4>
+                <div class="rating">
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star-half-o" aria-hidden="true"></i>
+                </div>
+
+                <p>ksh70.00</p>
+                
+            </div>
+            <div class="col-4">
+                <img src="images/brocolli.jpg" alt="">
+                
+                <h4>Brocolli</h4>
+                <div class="rating">
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                </div>
+
+                <p>ksh90.00</p>
+                
+            </div>
+            
+        </div>  
+        <h2 class="title">New Farm Produce</h2>
+        <div class="row">
+            <div class="col-4">
+                <img src="images/corrianda.jpg" alt="">
+                
+                <h4>Dania</h4>
+                <div class="rating">
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star-half-o" aria-hidden="true"></i>
+                </div>
+
+                <p>ksh40.00</p>
+                
+            </div>
+            <div class="col-4">
+                <img src="images/watermeellon.jpg" alt="">
+                
+                <h4>WaterMelon</h4>
+                <div class="rating">
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                </div>
+
+                <p>ksh140.00</p>
+                
+            </div>
+            <div class="col-4">
+                <img src="images/pineapple.jpg" alt="">
+                
+                <h4>Pineapple</h4>
+                <div class="rating">
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star-half-o" aria-hidden="true"></i>
+                </div>
+
+                <p>ksh60.00</p>
+                
+            </div>
+            <div class="col-4">
+                <img src="images/groundnuts.jpg" alt="">
+                
+                <h4>Groundnuts</h4>
+                <div class="rating">
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                </div>
+
+                <p>ksh190.00</p>
+                
+            </div>
+            
+        </div> 
+        <div class="row">
+            <div class="col-4">
+                <img src="images/maize.jpg" alt="">
+                
+                <h4>Maize</h4>
+                <div class="rating">
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star-half-o" aria-hidden="true"></i>
+                </div>
+                <h4>per kg</h4>
+                <p>ksh105.00</p>
+                
+            </div>
+            <div class="col-4">
+                <img src="images/grapes.jpg" alt="">
+                
+                <h4>Grapes</h4>
+                <div class="rating">
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                </div>
+
+                <p>ksh.250.00</p>
+                
+            </div>
+            <div class="col-4">
+                <img src="images/onion.jpg" alt="">
+                
+                <h4>Onion</h4>
+                <div class="rating">
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star-half-o" aria-hidden="true"></i>
+                </div>
+                <h4>per kg</h4>
+                <p>ksh90.00</p>
+                
+            </div>
+            <div class="col-4">
+                <img src="images/tilapia.jpg" alt="">
+                
+                <h4>Tilapia</h4>
+                <div class="rating">
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                </div>
+
+                <p>ksh450.00</p>
+                
+            </div>
+            
+        </div> 
+        <div class="row">
+            <div class="col-4">
+                <img src="images/grapes.jpg" alt="">
+                
+                <h4>Grapes</h4>
+                <div class="rating">
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star-half-o" aria-hidden="true"></i>
+                </div>
+
+                <p>ksh 200.00</p>
+                
+            </div>
+            <div class="col-4">
+                <img src="images/peas.jpg" alt="">
+                
+                <h4>Beans</h4>
+                <div class="rating">
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                </div>
+
+                <p>ksh110.00</p>
+                
+            </div>
+            <div class="col-4">
+                <img src="images/garlic.jpg" alt="">
+                
+                <h4>Garlic</h4>
+                <div class="rating">
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star-half-o" aria-hidden="true"></i>
+                </div>
+
+                <p>ksh70.00</p>
+                
+            </div>
+            <div class="col-4">
+                <img src="images/brocolli.jpg" alt="">
+                
+                <h4>Brocolli</h4>
+                <div class="rating">
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                </div>
+
+                <p>ksh90.00</p>
+                
+            </div>
+            
+        </div>  
+        <h2 class="title">New Farm Produce</h2>
+        <div class="row">
+            <div class="col-4">
+                <img src="images/corrianda.jpg" alt="">
+                
+                <h4>Dania</h4>
+                <div class="rating">
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star-half-o" aria-hidden="true"></i>
+                </div>
+
+                <p>ksh40.00</p>
+                
+            </div>
+            <div class="col-4">
+                <img src="images/watermeellon.jpg" alt="">
+                
+                <h4>WaterMelon</h4>
+                <div class="rating">
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                </div>
+
+                <p>ksh140.00</p>
+                
+            </div>
+            <div class="col-4">
+                <img src="images/pineapple.jpg" alt="">
+                
+                <h4>Pineapple</h4>
+                <div class="rating">
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star-half-o" aria-hidden="true"></i>
+                </div>
+
+                <p>ksh60.00</p>
+                
+            </div>
+            <div class="col-4">
+                <img src="images/groundnuts.jpg" alt="">
+                
+                <h4>Groundnuts</h4>
+                <div class="rating">
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                </div>
+
+                <p>ksh190.00</p>
+                
+            </div>
+            
+        </div>
+         
+        <div class="page-btn">
+            <span>1</span>
+            <span>2</span>
+            <span>3</span>
+            <span>4</span>
+            <span>&#8594;</span>
+        </div>
+        
+        
+    </div>   
+   
+    
+
+
+    <!-----------------footer--------------------------->
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <h3>Download Our App</h3>
+                    <p>Download our App from any smartphone platform</p>
+                    <div class="app-logo">
+                        <img src="images/googleplay.jpg" alt="">
+
+                    </div>
+                </div>
+                <div class="footer-col-2">
+                    <img src="images/saveearth.jpg" alt="">
+                    <p>our purpose is to help the environemt </p>
+                </div>
+                <div class="footer-col-3">
+                    
+                    <h3>useful links</h3>
+                    <ul>
+                        <li>Coupons</li>
+                        <li>Blog Post</li>
+                        <li>Return policy</li>
+                        <li>Join Affiliate</li>
+                    </ul>
+                </div>
+                <div class="footer-col-4">
+                    
+                    <h3>Follow us</h3>
+                    <ul>
+                        <li>Facebook</li>
+                        <li>Twitter</li>
+                        <li>instagram</li>
+                        <li>Youtube</li>
+                    </ul>
+                </div>
+                <hr>
+                <p class="copyright">Copyright 2020-Tikos tech</p>
+            </div>
+        </div>
+    </div>
+
+    <!-----------------js for toggle menu---------------------------->
+    <script>
+        var menuItems = document.getElementById("MenuItems");
+        MenuItems.style.maxHeight = "0px";
+        function menutoggle(){
+            if(MenuItems.style.maxHeight == "0px")
+                {
+                    MenuItems.style.maxHeight = "200px"
+                }
+            else
+                {
+                    MenuItems.style.maxHeight = "0px"
+                }
+        }
+    </script>
+</body>
+</html>
